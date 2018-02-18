@@ -28,7 +28,7 @@ module.exports = {
         ],
         "linebreak-style": [
             "error",
-            "unix"
+            "windows"
         ],
         "quotes": [
             "error",
@@ -39,5 +39,10 @@ module.exports = {
             "never"
         ],
         "no-console": 0
+    },
+    "globals": {
+        "test": true,
+        "expect": true,
+        "describe": true
     }
 };
