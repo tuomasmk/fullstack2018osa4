@@ -1,9 +1,11 @@
 POST http://localhost:3003/api/blogs
 content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI1YTkxNGQ4NThlMTM0MTJmYTQ0ZWVjYWIiLCJpYXQiOjE1MTk0NzcyNDR9.SbjMD9GSadEo39EMaj9gA5XitsAUUDfr94tJjr7-jAQ
 
 {
-    "title": "sopusointuja",
-    "author": "Maarit",
-    "url": "http://sopusointuja.blogspot.fi/",
-    "likes": 0
+    "title": "React patterns3",
+    "author": "Michael Chan",
+    "url": "https://reactpatterns.com/",
+    "likes": 5,
+    "userId": "5a914d858e13412fa44eecab"
 }
